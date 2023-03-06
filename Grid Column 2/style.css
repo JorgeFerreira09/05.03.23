@@ -1,0 +1,17 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: fuchsia;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.item3 {
+    grid-column: 3 / span 3 ;
+}

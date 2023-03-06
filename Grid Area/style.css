@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto ;
+    gap: 10px;
+    background-color:gainsboro
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: darkgrey;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.item8 {
+    grid-area: 1 / 2 / 5 / 6;
+}
+
+/*
+grid-area = grid-row-start / grid-column-start / grid-row-end / grid-column-end
+*/
